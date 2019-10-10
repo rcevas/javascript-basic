@@ -1,12 +1,24 @@
+//EJERCICIO 1
 console.log("HOLA MUNDO");
 
+//EJERCICIO 2
 alert("Me llamo Rod");
 
+//EJERCICIO 3
 var nombre = "Rodrigo";
 var apellido = "Cevas";
 
+//EJERCICIO 4
 var a = 5;
 var b = 8;
 var suma = a + b;
 var total = "la suma entre " + a + " y " + b + " es " + suma;
 console.log(total);
+
+//EJERCICIO 5
+var nota_examen = 4.8;
+if(nota_examen > 5) {
+    console.log("has aprobado el examen con " + nota_examen);
+}else {
+    console.log("has reprobado el examen con " + nota_examen);
+}
