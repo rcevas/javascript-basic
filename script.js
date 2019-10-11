@@ -21,4 +21,14 @@ if(nota_examen > 5) {
     console.log("has aprobado el examen con " + nota_examen);
 }else {
     console.log("has reprobado el examen con " + nota_examen);
-}
+} 
+
+//EJERCICIO 6
+
+var a = "Tengo un coche de color azul";
+
+var b = a.replace("azul", "verde");
+var c = a.replace(/o/g, "u")
+console.log(b);
+console.log(c);
+
