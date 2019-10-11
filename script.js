@@ -32,3 +32,12 @@ var c = a.replace(/o/g, "u")
 console.log(b);
 console.log(c);
 
+ 
+
+ //EJERCICIO 7
+
+ var a = ['mesa', 'silla', 'ordenador', 'libreta'];
+
+ for (var i = 0; i<a.length; i++) {
+     console.log(a[i]);
+ }
