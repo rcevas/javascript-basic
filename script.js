@@ -40,4 +40,24 @@ console.log(c);
 
  for (var i = 0; i<a.length; i++) {
      console.log(a[i]);
+ } 
+
+ //EJERCICIO 8
+
+
+ function calculadora (operador,valor1,valor2){        
+    if (operador === "suma") {        
+        document.getElementById('resultado').innerHTML = valor1 + valor2;      
+    }
+    if (operador === "resta") {        
+        document.getElementById('resultado').innerHTML = valor1 - valor2;      
+    }
+    if (operador === "mult") {        
+        document.getElementById('resultado').innerHTML = valor1 * valor2;      
+    }   
  }
+ 
+ 
+ var resultado = calculadora("resta",5,2);
+ 
+ 
